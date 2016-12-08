@@ -1,24 +1,19 @@
-# This is hadoop note
-Hadoop
-    considerationis
-        More data usually beats better algorithms
-        VIrtual access to information
-            HDFS
-                Hadoop Distributed Filesystem
-                RAID
-        Aggregate data
-            MapReduce
-        seek time improving more slowly than transfer rate
-            seek
-                Moving the disk's head to a particular place on the disk to read /write
-                latency of a disk operation
-            transfer rate
-                disk's bandwidth
-        Update date majority of database MapReduce is faster  
-            MapReduce
-            relational database
-                B-tree
-        Comparison
+# Hadoop
+## considerationis
+- More data usually beats better algorithms
+- Virtual access to information
+ - HDFS: Hadoop Distributed Filesystem
+ - RAID
+- Aggregate data
+ - MapReduce
+- seek time improving more slowly than transfer rate
+  - seek : Moving the disk's head to a particular place on the disk to read /write latency of a disk operation
+  - transfer rate: disk's bandwidth
+- Update date majority of database MapReduce is faster  
+ - MapReduce
+ - relational database
+  - B-tree
+- Comparison
             RDBMS
                 low-latency retrieval
                 Update times of a small amount of data
